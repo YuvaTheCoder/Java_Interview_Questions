@@ -10,6 +10,6 @@ public class ChangingValuesWithoutThirdVariable {
 	a=a-b;
 	System.out.println("The value of A is " + a);
 	System.out.println("The value of B is " + b);
-	
+		
 	}
 }
