@@ -1,5 +1,5 @@
 package ImportantQuestions;
 
-public class ReverseTheString {
+public class MergeTwoArrays {
 
 }
