@@ -1,6 +1,6 @@
 package ImportantQuestions;
 
-public class ReverseTheInteger {
+public class ReverseTheInteger1 {
 	public static void main (String args[]) {
 		int num = 1234;
 		int reverse =0;

@@ -1,4 +1,4 @@
-package ImportantQuestions;
+package array;
 
 public class ReverseAnArray {
 

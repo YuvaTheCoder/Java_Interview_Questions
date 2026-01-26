@@ -6,7 +6,7 @@ public class ChangingValuesWithoutThirdVariable {
 	int b = 20;
 	
 	a = a + b;
-	b= a-b;
+	b= a-b;    // Now it has value of A
 	a=a-b;
 	System.out.println("The value of A is " + a);
 	System.out.println("The value of B is " + b);
