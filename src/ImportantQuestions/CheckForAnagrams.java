@@ -1,19 +1,19 @@
 package ImportantQuestions;
 
 import java.util.Arrays;
-
+//Rearranging the letters of a word or phrase to form a new word or phrase, using all the original letters exactly once.
 // listen -> silent
 //race -> care
 public class CheckForAnagrams {
 public static void main (String args[]) {
-	String s1 = "silet";
+	String s1 = "silent";
 	String s2 = "listen";
 	
 	
 	//Removing all the white spaces and converting to Lower cases:
 	
-	s1 = s1.replaceAll("//s", "").toLowerCase();
-	s2 = s2.replaceAll("//s", "").toLowerCase();
+	s1 = s1.replaceAll("\\s", "").toLowerCase();    //   \\s means remove the white spaces, "" means no space. Simply "Hello World" means helloworld
+	s2 = s2.replaceAll("\\s", "").toLowerCase();
 	
 	
 	//Comparing the lengths of s1 and s2
